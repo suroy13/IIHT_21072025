@@ -23,7 +23,7 @@ pipeline{
         }
         stage('Post-Build'){
             steps{
-                sh echo 'Build Action Completed'
+                echo 'Post Build Action Completed'
             }
             post {
                 success {
