@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-22T15:43:24 GMT-04:00" name="IIHT_21072025" finished-at="2025-07-22T15:44:01 GMT-04:00" duration-ms="37451">
+    <groups>
+      <group name="businesslogic">
+        <method signature="TestClass.registrationTest()[pri:1, instance:tests.TestClass@d706f19]" name="registrationTest" class="tests.TestClass"/>
+        <method signature="TestClass.loginTest(java.lang.String,java.lang.String)[pri:2, instance:tests.TestClass@d706f19]" name="loginTest" class="tests.TestClass"/>
+        <method signature="TestClass.searchTest()[pri:3, instance:tests.TestClass@d706f19]" name="searchTest" class="tests.TestClass"/>
+      </group> <!-- businesslogic -->
+    </groups>
+    <test started-at="2025-07-22T15:43:24 GMT-04:00" name="TestNg Assessment" finished-at="2025-07-22T15:44:01 GMT-04:00" duration-ms="37451">
+      <class name="tests.TestClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:43:24 GMT-04:00" name="setup" finished-at="2025-07-22T15:43:31 GMT-04:00" duration-ms="7702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationTest()[pri:1, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:43:31 GMT-04:00" name="registrationTest" finished-at="2025-07-22T15:43:33 GMT-04:00" duration-ms="2190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:43:33 GMT-04:00" name="teardown" finished-at="2025-07-22T15:43:34 GMT-04:00" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:43:34 GMT-04:00" name="setup" finished-at="2025-07-22T15:43:38 GMT-04:00" duration-ms="4748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:43:38 GMT-04:00" name="loginTest" data-provider="loginData" finished-at="2025-07-22T15:43:40 GMT-04:00" duration-ms="1083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john.doe@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:43:40 GMT-04:00" name="teardown" finished-at="2025-07-22T15:43:40 GMT-04:00" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:43:40 GMT-04:00" name="setup" finished-at="2025-07-22T15:43:44 GMT-04:00" duration-ms="3947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchTest()[pri:3, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:43:44 GMT-04:00" name="searchTest" finished-at="2025-07-22T15:43:47 GMT-04:00" duration-ms="3756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:43:47 GMT-04:00" name="teardown" finished-at="2025-07-22T15:43:48 GMT-04:00" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:43:48 GMT-04:00" name="setup" finished-at="2025-07-22T15:43:52 GMT-04:00" duration-ms="3991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchTest()[pri:3, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:43:52 GMT-04:00" name="searchTest" finished-at="2025-07-22T15:43:54 GMT-04:00" duration-ms="2898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:43:55 GMT-04:00" name="teardown" finished-at="2025-07-22T15:43:55 GMT-04:00" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:43:55 GMT-04:00" name="setup" finished-at="2025-07-22T15:43:59 GMT-04:00" duration-ms="4321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchTest()[pri:3, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:43:59 GMT-04:00" name="searchTest" finished-at="2025-07-22T15:44:01 GMT-04:00" duration-ms="1767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TestClass@d706f19]" started-at="2025-07-22T15:44:01 GMT-04:00" name="teardown" finished-at="2025-07-22T15:44:01 GMT-04:00" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.TestClass -->
+    </test> <!-- TestNg Assessment -->
+  </suite> <!-- IIHT_21072025 -->
+</testng-results>

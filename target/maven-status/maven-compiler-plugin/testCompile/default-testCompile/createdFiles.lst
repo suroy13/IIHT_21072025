@@ -1,0 +1,5 @@
+utils\DriverUtils.class
+pages\RegistrationPage.class
+tests\TestClass.class
+pages\LoginPage.class
+pages\SearchPage.class

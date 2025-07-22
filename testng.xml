@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="IIHT_21072025">
+  <test name="TestNg Assessment">
+  <groups>
+  <run>
+    <include name="pre-requisite"></include>
+    <include name="businesslogic"></include>
+    <include name="tear down"></include>
+  </run>
+  </groups>	
+    <classes>
+      <class name="tests.TestClass"/>
+    </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
